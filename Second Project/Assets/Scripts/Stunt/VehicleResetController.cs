@@ -45,6 +45,10 @@ public class VehicleResetController : MonoBehaviour
                 text.text = "";
                 reset = false;
                 rb.transform.position = originalPos;
+                rb.transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, 0);
+                    
+                    
+
 
                 
             }

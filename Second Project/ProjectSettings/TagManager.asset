@@ -9,6 +9,7 @@ TagManager:
   - MainCanvas
   - Text
   - Pickup
+  - Timer
   layers:
   - Default
   - TransparentFX
